@@ -1,0 +1,99 @@
+{
+  "name": "Job",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "company_logo": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "salary_min": {
+      "type": "number"
+    },
+    "salary_max": {
+      "type": "number"
+    },
+    "role_type": {
+      "type": "string",
+      "enum": [
+        "full-time",
+        "part-time",
+        "contract",
+        "intern"
+      ]
+    },
+    "work_arrangement": {
+      "type": "string",
+      "enum": [
+        "remote",
+        "hybrid",
+        "on-site"
+      ]
+    },
+    "industry": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "required_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_qualifications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "typical_day": {
+      "type": "string"
+    },
+    "challenges": {
+      "type": "string"
+    },
+    "first_90_days": {
+      "type": "string"
+    },
+    "employer_transparency_score": {
+      "type": "number"
+    },
+    "hiring_responsiveness": {
+      "type": "number"
+    },
+    "jd_accuracy": {
+      "type": "number"
+    },
+    "candidate_feedback": {
+      "type": "number"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": []
+}

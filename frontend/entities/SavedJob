@@ -1,0 +1,20 @@
+{
+  "name": "SavedJob",
+  "type": "object",
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "saved_date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": []
+}

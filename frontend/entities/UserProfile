@@ -1,0 +1,200 @@
+{
+  "name": "UserProfile",
+  "type": "object",
+  "properties": {
+    "onboarding_completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "profile_completeness": {
+      "type": "number",
+      "default": 0
+    },
+    "phone": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "work_authorization": {
+      "type": "string",
+      "enum": [
+        "citizen",
+        "pr",
+        "ep",
+        "sp",
+        "dp",
+        "student_pass",
+        "other"
+      ]
+    },
+    "desired_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_industries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "role_type": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "work_arrangement": {
+      "type": "string",
+      "enum": [
+        "remote",
+        "hybrid",
+        "on-site"
+      ]
+    },
+    "highest_degree": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "graduation_year": {
+      "type": "number"
+    },
+    "gpa": {
+      "type": "string"
+    },
+    "relevant_modules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "capstone_projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "hard_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "soft_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains_of_interest": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "employment_status": {
+      "type": "string",
+      "enum": [
+        "currently_employed",
+        "previously_employed",
+        "never_employed"
+      ]
+    },
+    "work_experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "company": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "end_date": {
+            "type": "string"
+          },
+          "responsibilities": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "expiry": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "issuer": {
+            "type": "string"
+          },
+          "year": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "resume_url": {
+      "type": "string"
+    },
+    "linkedin_data": {
+      "type": "object",
+      "properties": {
+        "headline": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "profile_url": {
+          "type": "string"
+        }
+      }
+    },
+    "target_role": {
+      "type": "string"
+    }
+  },
+  "required": []
+}

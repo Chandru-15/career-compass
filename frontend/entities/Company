@@ -1,0 +1,49 @@
+{
+  "name": "Company",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "transparency_score": {
+      "type": "number"
+    },
+    "hiring_responsiveness": {
+      "type": "number"
+    },
+    "jd_accuracy": {
+      "type": "number"
+    },
+    "candidate_feedback_score": {
+      "type": "number"
+    },
+    "avg_response_time": {
+      "type": "string"
+    },
+    "typical_stages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "feedback_snippets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": []
+}

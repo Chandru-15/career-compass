@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.tsbuildinfo
+backend/uploads/
+playwright-report/
+test-results/
+.DS_Store
+.npm-cache/

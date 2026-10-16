@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border: 214 32% 91%; /* light slate-ish border */
+  --background: 210 40% 98%; /* slate-50 */
+  --foreground: 222 47% 11%; /* slate-900 */
+}
+
+@layer base {
+  * {
+    @apply border-slate-200;
+  }
+  html,
+  body {
+    @apply bg-slate-50 text-slate-900;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+  #root {
+    min-height: 100%;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Chat owns its vertical scroll. Long evidence, URLs and code must never size
+   the grid beyond the viewport or disappear behind the page's overflow rule. */
+.ai-planner .chat-markdown {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.ai-planner .chat-markdown pre,
+.ai-planner .chat-markdown code {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+}
+.ai-planner .chat-markdown pre {
+  padding: 0.75rem;
+  background: #e2e8f0;
+  border-radius: 0.5rem;
+}
+.ai-planner .chat-markdown img,
+.ai-planner .chat-markdown table {
+  max-width: 100%;
+}
+.ai-planner .chat-markdown table {
+  table-layout: fixed;
+  width: 100%;
+}
+.ai-planner .chat-markdown p + p,
+.ai-planner .chat-markdown pre,
+.ai-planner .chat-markdown ul,
+.ai-planner .chat-markdown ol {
+  margin-top: 0.5rem;
+}

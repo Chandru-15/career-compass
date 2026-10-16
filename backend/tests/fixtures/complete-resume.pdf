@@ -1,0 +1,97 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2766 >>
+stream
+BT /F1 10 Tf 42 748 Td 14 TL
+(Alex Rivera) Tj T*
+(Email: alex.rivera@example.test) Tj T*
+(Location: Singapore) Tj T*
+() Tj T*
+(EDUCATION) Tj T*
+(Bachelor of Computing, Demo Institute of Technology.) Tj T*
+(Relevant modules: Databases, Software Engineering and Human-Computer Interaction.) Tj T*
+(Studied data modelling, accessible interaction design and automated testing.) Tj T*
+() Tj T*
+(PROJECTS) Tj T*
+(CampusRoute - Accessible Campus Navigation) Tj T*
+(Built a React and Python route planner for accessible campus paths. Modelled route) Tj T*
+(segments in PostgreSQL, implemented keyboard navigation, and wrote unit tests for route) Tj T*
+(selection. The project compared travel distance with accessibility preferences and) Tj T*
+(explained when a requested route could not be found.) Tj T*
+(InterviewJournal - Practice Reflection Tool) Tj T*
+(Developed an interview reflection dashboard with private notes and an application) Tj T*
+(tracker. Implemented server-side input validation, a stable demo account and regression) Tj T*
+(tests for persistence across server restarts. Clearly separated deterministic matching) Tj T*
+(from generated coaching suggestions.) Tj T*
+() Tj T*
+(EXPERIENCE) Tj T*
+(Backend Engineering Intern, Example Labs) Tj T*
+(Implemented API validation and database queries for a small internal scheduling) Tj T*
+(application. Collaborated with designers to explain loading and error states. Added) Tj T*
+(integration checks for pagination and concurrent updates. Documented setup steps so) Tj T*
+(teammates could reproduce the application locally. Investigated an intermittent cache) Tj T*
+(issue and verified the fix using a repeatable browser workflow.) Tj T*
+(Supported a code review process focused on clear naming, small functions and actionable) Tj T*
+(test results. Shared implementation notes describing tradeoffs between retaining) Tj T*
+(complete user data and creating compact summaries. Checked that long responses and) Tj T*
+(document attachments remained readable on mobile devices. Used synthetic examples when) Tj T*
+(testing workflows involving candidate information.) Tj T*
+() Tj T*
+(LEADERSHIP EXPERIENCE) Tj T*
+(Student Computing Society - Workshop Coordinator) Tj T*
+(Organised peer learning sessions on Git, testing and accessible web development.) Tj T*
+(Prepared exercises, paired new participants with volunteers, and collected feedback to) Tj T*
+(improve the next workshop. Coordinated speakers and maintained a shared checklist for) Tj T*
+(event preparation.) Tj T*
+() Tj T*
+(SKILLS) Tj T*
+(Python, TypeScript, React, SQL, PostgreSQL, Git, unit testing, API design.) Tj T*
+(Communication, collaborative debugging and workshop facilitation.) Tj T*
+() Tj T*
+(LANGUAGES) Tj T*
+(English and Malay.) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 244 >>
+stream
+BT /F1 10 Tf 42 748 Td 14 TL
+(OTHER ACTIVITIES) Tj T*
+(Community library coding volunteer. Designed beginner-friendly exercises using fictional) Tj T*
+(data and explained how to recognise unsupported claims in generated text.) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000003135 00000 n 
+0000003261 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3556
+%%EOF

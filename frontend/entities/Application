@@ -1,0 +1,46 @@
+{
+  "name": "Application",
+  "type": "object",
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "applied",
+        "under_review",
+        "interview",
+        "offer",
+        "accepted",
+        "rejected"
+      ],
+      "default": "applied"
+    },
+    "applied_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "next_step": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "interview_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "calendar_added": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": []
+}

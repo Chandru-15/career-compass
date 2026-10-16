@@ -1,0 +1,33 @@
+Alex Rivera
+Email: alex.rivera@example.test
+Location: Singapore
+
+EDUCATION
+Bachelor of Computing, Demo Institute of Technology.
+Relevant modules: Databases, Software Engineering and Human-Computer Interaction.
+Studied data modelling, accessible interaction design and automated testing.
+
+PROJECTS
+CampusRoute - Accessible Campus Navigation
+Built a React and Python route planner for accessible campus paths. Modelled route segments in PostgreSQL, implemented keyboard navigation, and wrote unit tests for route selection. The project compared travel distance with accessibility preferences and explained when a requested route could not be found.
+InterviewJournal - Practice Reflection Tool
+Developed an interview reflection dashboard with private notes and an application tracker. Implemented server-side input validation, a stable demo account and regression tests for persistence across server restarts. Clearly separated deterministic matching from generated coaching suggestions.
+
+EXPERIENCE
+Backend Engineering Intern, Example Labs
+Implemented API validation and database queries for a small internal scheduling application. Collaborated with designers to explain loading and error states. Added integration checks for pagination and concurrent updates. Documented setup steps so teammates could reproduce the application locally. Investigated an intermittent cache issue and verified the fix using a repeatable browser workflow.
+Supported a code review process focused on clear naming, small functions and actionable test results. Shared implementation notes describing tradeoffs between retaining complete user data and creating compact summaries. Checked that long responses and document attachments remained readable on mobile devices. Used synthetic examples when testing workflows involving candidate information.
+
+LEADERSHIP EXPERIENCE
+Student Computing Society - Workshop Coordinator
+Organised peer learning sessions on Git, testing and accessible web development. Prepared exercises, paired new participants with volunteers, and collected feedback to improve the next workshop. Coordinated speakers and maintained a shared checklist for event preparation.
+
+SKILLS
+Python, TypeScript, React, SQL, PostgreSQL, Git, unit testing, API design.
+Communication, collaborative debugging and workshop facilitation.
+
+LANGUAGES
+English and Malay.
+
+OTHER ACTIVITIES
+Community library coding volunteer. Designed beginner-friendly exercises using fictional data and explained how to recognise unsupported claims in generated text.
